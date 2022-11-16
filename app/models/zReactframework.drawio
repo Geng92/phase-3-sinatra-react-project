@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="XryIXu2dcXApc6ZvAZmw" name="Page-1">
+        <mxGraphModel dx="1157" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="page 1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="40" y="10" width="770" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="770" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="traveler" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="click on and display details?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="maybe a comment or 2 about POI?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="shows their POI list&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="shows their name" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="shows trips they've been a part of" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="240" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="destination" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="570" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="shows details basically all the key value pairs" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="570" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="570" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="570" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="730" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="730" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="730" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="730" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="area to display details?&lt;br&gt;add show hide form button at foot of details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="70" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="page 2&lt;br&gt;make your own trip component?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="400" width="740" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Hear from our Caravan travelers for advice your your next trip!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="20" width="750" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="population with selected destination component" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="430" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1040" width="770" height="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="add yourself as a traveler with your own trips and destinations with a form ???" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1080" width="700" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1330" width="700" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="maybe add a POST" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="430" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="435" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="implement a way to update the traveler's POI list with PATCH&lt;br&gt;perhaps create a hide/show form&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="100" width="120" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

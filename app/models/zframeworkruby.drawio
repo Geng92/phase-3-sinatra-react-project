@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="WzskMqlYMKVP664uGJpF" name="Page-1">
+        <mxGraphModel dx="1157" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="traveler&lt;br&gt;has_many :trips&lt;br&gt;has_many :destinations, through :trips&lt;br&gt;has_many :favorites&lt;br&gt;&lt;br&gt;has_many :favorite_destinations, through :favorites, class_name: &quot;Destination&quot;&lt;br&gt;&lt;br&gt;key value pairs:&lt;br&gt;(first_name : string&lt;br&gt;last_name : string)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="410" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="trip&lt;br&gt;belongs_to travelers,&lt;br&gt;belongs_to destinations&lt;br&gt;Key value pairs:&lt;br&gt;date: integer&lt;br&gt;destination_id: integer&lt;br&gt;traveler_id: integer" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="640" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;font-weight: normal&quot;&gt;destination&lt;br&gt;has_many :travelers. through :trips&lt;br&gt;has_many :favorites&lt;br&gt;has_many :favorite_travelers, through :favorites, class_name: &quot;Traveler&quot;&lt;br&gt;&lt;br&gt;key value pairs&lt;br&gt;location :string&lt;br&gt;climate :string&lt;br&gt;population :integer&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="530" y="340" width="210" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.999;entryY=0.631;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="favorite&lt;br&gt;belongs_to travelers,&lt;br&gt;belongs_to destinations&lt;br&gt;&lt;br&gt;Key value pairs:&lt;br&gt;destination_id: integer&lt;br&gt;traveler_id: integer" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="790" width="140" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
