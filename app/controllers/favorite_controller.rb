@@ -1,12 +1,12 @@
 class FavoritesController < ApplicationController
 
-    get `/favorites` do
+    get "/favorites" do
         favorites = Favorite.all
         favorites.to_json 
     end
 
-    get `/favorites/:id` do
-        favorite = Favorite.find(param[:id])
+    get "/favorites/:id" do
+        favorite = Favorite.find(params[:id])
         favorite.to_json
     end
 end

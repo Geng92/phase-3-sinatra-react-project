@@ -8,7 +8,8 @@ puts "🌱 Seeding spices..."
 8.times do
     Traveler.create(
         first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name
+        last_name: Faker::Name.last_name,
+        image: Faker::Avatar.image
     )
 end
 
@@ -24,7 +25,8 @@ end
     Destination.create(
         location: Faker::Nation.capital_city,
         climate: Faker::Currency.name,
-        population: rand(1..100)
+        population: rand(1..100),
+        image: Faker::Avatar.image
     )
 end
 

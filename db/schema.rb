@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2022_11_15_165448) do
   create_table "destinations", force: :cascade do |t|
     t.string "location"
     t.string "climate"
+    t.string "image"
     t.integer "population"
   end
 
@@ -26,6 +27,7 @@ ActiveRecord::Schema.define(version: 2022_11_15_165448) do
   create_table "travelers", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
+    t.string "image"
   end
 
   create_table "trips", force: :cascade do |t|
