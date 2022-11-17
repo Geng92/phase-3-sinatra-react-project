@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2022_11_15_165448) do
     t.string "climate"
     t.string "image"
     t.integer "population"
+    t.boolean "visited?"
   end
 
   create_table "favorites", force: :cascade do |t|
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(version: 2022_11_15_165448) do
     t.integer "date"
     t.integer "traveler_id"
     t.integer "destination_id"
+    t.string "image"
   end
 
 end

@@ -5,6 +5,7 @@ class CreateDestinations < ActiveRecord::Migration[6.1]
       t.string :climate
       t.string :image
       t.integer :population
+      t.boolean :visited?
     end
   end
 end

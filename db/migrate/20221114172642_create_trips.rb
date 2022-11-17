@@ -4,6 +4,7 @@ class CreateTrips < ActiveRecord::Migration[6.1]
       t.integer :date
       t.integer :traveler_id
       t.integer :destination_id
+      t.string :image
     end
   end
 end

@@ -16,17 +16,18 @@ end
 5.times do
     Trip.create(
         date: Faker::Date.backward,
-        traveler_id: Traveler.all.ids.sample
-        destination_id: Destination.all.ids.sample,
+        traveler_id: Traveler.all.ids.sample,
+        destination_id: Destination.all.ids.sample
     )
 end
 
 10.times do
-    Destination.create(
+    destination = Destination.create(
         location: Faker::Nation.capital_city,
         climate: Faker::Currency.name,
         population: rand(1..100),
-        image: Faker::Avatar.image
+        image: Faker::Avatar.image,
+        visited?: false
     )
 end
 
