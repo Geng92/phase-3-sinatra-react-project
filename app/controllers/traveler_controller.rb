@@ -9,4 +9,8 @@ class TravelersController < ApplicationController
         traveler = Traveler.find(params[:id])
         traveler.to_json(include: :favorite_destinations)
     end
+
+    post "/travelers" do 
+        Traveler.create(params)
+    end
 end

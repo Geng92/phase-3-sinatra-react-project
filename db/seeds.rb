@@ -16,8 +16,8 @@ end
 5.times do
     Trip.create(
         date: Faker::Date.backward,
-        traveler_id: Destination.all.ids.sample,
-        destination_id: Traveler.all.ids.sample
+        traveler_id: Traveler.all.ids.sample
+        destination_id: Destination.all.ids.sample,
     )
 end
 

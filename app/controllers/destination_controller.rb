@@ -8,4 +8,10 @@ class DestinationsController < ApplicationController
         destination = Destination.find(params[:id])
         destination.to_json(includes: :favorite_travelers)
     end
+
+    patch "/destinations:id" do
+       destination = Destination.find(params[:id])
+       destination.update(visited: params[:visited])
+       destination.to_json
+    end
 end
