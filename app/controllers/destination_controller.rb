@@ -14,4 +14,8 @@ class DestinationsController < ApplicationController
        destination.update(visited: params[:visited])
        destination.to_json
     end
+
+    post "/destinations" do 
+        Destination.create(params)
+    end
 end

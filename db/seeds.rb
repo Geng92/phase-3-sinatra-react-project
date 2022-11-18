@@ -13,13 +13,6 @@ puts "🌱 Seeding spices..."
     )
 end
 
-5.times do
-    Trip.create(
-        date: Faker::Date.backward,
-        traveler_id: Traveler.all.ids.sample,
-        destination_id: Destination.all.ids.sample
-    )
-end
 
 10.times do
     destination = Destination.create(
@@ -28,9 +21,16 @@ end
         population: rand(1..100),
         image: Faker::Avatar.image,
         visited?: false
-    )
+        )
+    end
+5.times do
+        Trip.create(
+            date: Faker::Date.backward,
+            traveler_id: Traveler.all.ids.sample,
+            destination_id: Destination.all.ids.sample
+        )
 end
-
+    
 3.times do
     Favorite.create(
         traveler_id: Destination.all.ids.sample,

@@ -1,7 +1,13 @@
 class TripsController < ApplicationController
     
     get "/trips" do
-        trips = Trip.all.to_json 
+        Trip.includes(:traveler, :destination).map do |trip| 
+            {
+            date: trip.date, 
+            traveler: trip.traveler.attributes, 
+            destination: trip.destination.attributes
+            }
+        end.to_json 
     end
 
     get "/trips/:id" do
